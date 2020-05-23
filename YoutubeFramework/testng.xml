@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="tests">
+	<test name="Moto G (5S) Plus">
+		<listeners>
+			<listener class-name="com.qa.listeners.TestListener" />
+		</listeners>
+		<parameter name="emulator" value="false" />
+		<parameter name="platformName" value="Android" />
+		<parameter name="udid" value="ZY322HGFD8" />
+		<parameter name="deviceName" value="Moto G (5S) Plus" />
+		<parameter name="systemPort" value="10000" />
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.mobile.tests.HomePageTest"></class>
+		</classes>
+	</test>
+	<test name="Web Automation">
+		<listeners>
+			<listener class-name="com.qa.listeners.TestListener" />
+		</listeners>
+		<parameter name="emulator" value="false" />
+		<parameter name="platformName" value="Android" />
+		<parameter name="udid" value="ZY322HGFD8" />
+		<parameter name="deviceName" value="Moto G (5S) Plus" />
+		<parameter name="systemPort" value="10000" />
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.web.tests.YouTube"></class>
+		</classes>
+	</test>
+</suite>
+
+

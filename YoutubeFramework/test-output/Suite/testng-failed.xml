@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" parallel="tests">
+  <listeners>
+    <listener class-name="com.qa.listeners.TestListener"/>
+  </listeners>
+  <test thread-count="5" name="Moto G (5S) Plus(failed)" parallel="tests">
+    <parameter name="emulator" value="false"/>
+    <parameter name="chromeDriverPort" value="11000"/>
+    <parameter name="platformName" value="Android"/>
+    <parameter name="udid" value="ZY322HGFD8"/>
+    <parameter name="deviceName" value="Moto G (5S) Plus"/>
+    <parameter name="systemPort" value="10000"/>
+    <classes>
+      <class name="com.mobile.tests.HomePageTest">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="afterClass"/>
+          <include name="afterTest"/>
+          <include name="afterMethod"/>
+          <include name="beforeTest"/>
+          <include name="beforeClass"/>
+          <include name="searchtext"/>
+          <include name="beforeMethod"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.mobile.tests.HomePageTest -->
+    </classes>
+  </test> <!-- Moto G (5S) Plus(failed) -->
+</suite> <!-- Failed suite [Suite] -->

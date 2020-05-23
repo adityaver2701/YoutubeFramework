@@ -1,0 +1,11 @@
+{
+	"searchtext":{
+		"text":"ci cd pipeline edureka",
+		"expectedtext":"Added to Liked videos",
+		"expectedunliketext":"Removed from Liked videos"
+	},
+	"gmail":{
+		"username":"devashishnigam@gmail.com",
+		"password":"adityaverma"
+	}
+}
